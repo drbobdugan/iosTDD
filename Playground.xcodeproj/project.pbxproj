@@ -12,8 +12,8 @@
 		280912E91E3846C900A1F49F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280912E71E3846C900A1F49F /* Main.storyboard */; };
 		280912EB1E3846C900A1F49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280912EA1E3846C900A1F49F /* Assets.xcassets */; };
 		280912EE1E3846C900A1F49F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280912EC1E3846C900A1F49F /* LaunchScreen.storyboard */; };
-		280912FC1E3AF3AB00A1F49F /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280912FB1E3AF3AB00A1F49F /* PlaygroundTests.swift */; };
 		280913041E3AF42A00A1F49F /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280913031E3AF42A00A1F49F /* Triangle.swift */; };
+		280E1E801E3BBE3600265944 /* TriangleTestsComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280E1E7F1E3BBE3600265944 /* TriangleTestsComplete.swift */; };
 		286AE1BF1E3B920000DD4348 /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286AE1BE1E3B920000DD4348 /* TriangleTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +36,9 @@
 		280912ED1E3846C900A1F49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280912EF1E3846C900A1F49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		280912F91E3AF3AB00A1F49F /* PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		280912FB1E3AF3AB00A1F49F /* PlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundTests.swift; sourceTree = "<group>"; };
 		280912FD1E3AF3AB00A1F49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		280913031E3AF42A00A1F49F /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		280E1E7F1E3BBE3600265944 /* TriangleTestsComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTestsComplete.swift; sourceTree = "<group>"; };
 		286AE1BE1E3B920000DD4348 /* TriangleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,8 +95,8 @@
 		280912FA1E3AF3AB00A1F49F /* PlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
-				280912FB1E3AF3AB00A1F49F /* PlaygroundTests.swift */,
 				286AE1BE1E3B920000DD4348 /* TriangleTests.swift */,
+				280E1E7F1E3BBE3600265944 /* TriangleTestsComplete.swift */,
 				280912FD1E3AF3AB00A1F49F /* Info.plist */,
 			);
 			path = PlaygroundTests;
@@ -213,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280912FC1E3AF3AB00A1F49F /* PlaygroundTests.swift in Sources */,
+				280E1E801E3BBE3600265944 /* TriangleTestsComplete.swift in Sources */,
 				286AE1BF1E3B920000DD4348 /* TriangleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
